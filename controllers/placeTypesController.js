@@ -9,8 +9,8 @@ class PlaceTypesController {
 
     async create(req, res)
     {
-        const {name, link} = req.body
-        const placeType = await PlaceType.create({name, link})
+        const {name} = req.body
+        const placeType = await PlaceType.create({name})
         return res.json(placeType)
     }
 }

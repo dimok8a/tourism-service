@@ -15,8 +15,7 @@ const User = sequelize.define('user',
 const PlaceType = sequelize.define('place_type',
     {
         id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
-        name: {type: DataTypes.STRING(32), allowNull: false},
-        link: {type: DataTypes.STRING(32), allowNull: false}
+        name: {type: DataTypes.STRING(32), allowNull: false}
     })
 
 const Photo = sequelize.define('photo',

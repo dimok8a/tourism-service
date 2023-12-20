@@ -1,0 +1,12 @@
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const MAIN_ROUTE = '/'
+export const PLACE_ROUTE = '/place'
+export const PLACE_TYPE_ROUTE = '/placeType'
+export const FEEDBACKS_ROUTE = '/feedbacks'
+export const NEW_FEEDBACK_ROUTE = '/newFeedback'
+export const PROFILE_ROUTE = '/profile'
+export const NEW_PLACE_ROUTE = '/newPlace'
+export const ADMIN_ROUTE = '/admin'
+
+export const PLACE_NOT_FOUND_ROUTE = '/*'

@@ -1,0 +1,15 @@
+.thebestbutton {
+    background-color: #CEAB8D!important;
+    border-color: #CEAB8D!important;
+}
+.thebestbutton:hover
+{
+    background-color: #9F8470!important;
+    border-color: #9F8470!important;
+}
+
+.thebestbutton:active
+{
+    background-color: #70634f !important;
+    border-color: #70634f!important;
+}
